@@ -11,6 +11,8 @@
     <img src="title.jpg" alt="Оригинальный постер">
 </header>
 <div class="maininfo">
+  <button id="hide">Скрыть</button>
+  <button id="show">Показать</button>
 <h2>О фильме</h2>
 <ul>
   <li>Год производства: 2014</li>
@@ -63,5 +65,13 @@ gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p><a href="https://www.kinopoisk.ru/film/722827/">Кинопоиск</a></p>
 <p><a href="https://www.film.ru/articles/chudo-v-peryah">Рецензция "Чудо в перьях" (2014)</a></p>
 <p><a href="https://seance.ru/articles/birdman/">Рецензия "Что-то в воздухе" (2015)</a></p></div>
+<div class="button1">
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Узнать точную дату и время</button>
+<p id="demo"></p>
+</div>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 </html>
