@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  font-family: Bell Gothic, sans-serif;
+  text-transform: uppercase;
+}
+
+span {
+  color: red;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.maininfo, .actors, .prizes, .links, .trailer, .plot {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-style: groove;
+  font-family: Tahoma, sans-serif;
+  border-color: red;
+}
